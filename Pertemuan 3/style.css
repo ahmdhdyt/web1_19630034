@@ -1,0 +1,59 @@
+.kotak{
+    background: rgb(153, 247, 2);
+    padding: 10px;
+    height: 10px;
+}
+.tulisan{
+    color: aqua;
+}
+.link-biasa {
+    color: #ff3d00;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none; /* membuat link tanpa garis bawah */
+    }
+.link-biasa:hover { /* hover untuk membuat berubah ketika cursor diarahkan */
+    color: #00e676;
+    text-decoration: underline; /* membuat link menjadi garis bawah */
+    }
+.link-button {
+    color: #fff;
+    background: #c2185b;
+    font-size: 15px;
+    margin-top: 100px;
+    padding: 10px;
+    text-decoration: none;
+    }
+.link-button:hover {
+    background: #2196f3;
+    }
+body { margin:0; padding:0; }
+.wrap {
+    width:980px;
+    margin:0 auto;
+}
+.header {
+    height:140px;
+    margin-bottom:15px;
+    background-color:#0d7963;
+}   
+.content {
+    width:690px;
+    height:450px;
+    background-color:#0d7963;
+    float:left;
+}
+.sidebar {
+    width:275px;
+    height:450px;
+    background-color:#0d7963;
+    float:right;
+}
+.clear {
+    clear:both;
+}
+.footer {
+    height:70px;
+    margin-top:15px;
+    background-color:#0d7963;
+}
